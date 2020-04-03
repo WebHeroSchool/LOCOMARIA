@@ -5,6 +5,7 @@ body {
     font-size: 15px;
     line-height: 21px;
   }
+  
   .header__title {
     font-weight: bold;
     font-size: 80px;
@@ -35,6 +36,8 @@ body {
     font-weight: bold;
     font-size: 16px;
     line-height: 16px;
+    letter-spacing: 0.07em;
+    opacity: 0.5;
   }
   .main__price {
     font-weight: bold;
@@ -50,4 +53,23 @@ body {
     font-weight: 500;
     font-size: 13px;
     line-height: 16px;
+  }
+
+  .menu__burger {
+    left: 1348px;
+    top: 0px;
+    width: 92px;
+    height: 92px;
+    background-color: #000000;
+    opacity: 0.05;
+    cursor: pointer;
+    position: relative;
+  }
+  .menu__burger-line1 {
+    position: absolute;
+    width: 34.7px;
+    height: 3.48px;
+    left: 1376.25px;
+    top: 39.54px;
+    background: #000000;
   }
