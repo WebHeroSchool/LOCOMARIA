@@ -204,7 +204,7 @@ body {
  height: 12px;
  left: 193px;
  background-image: url(./images/arrow.svg);
- margin-top: -21px;
+ margin-top: -25px;
  background-repeat: no-repeat;
 }
 .main__contact_nav {
@@ -244,7 +244,6 @@ position: relative;
 .main__title {
   font-size: 64px;
   max-width: 400px;
-  line-height: 60px;
 }
 .main__wrap_img {
   width: 480px;
@@ -257,9 +256,12 @@ position: relative;
  .main__contact_rect { 
    padding-left: 400px;
  }
+.main__buttons {
+  line-height: 39px;
+}
 }
 
-@media (max-width: 1170px) {
+@media (max-width: 1171px) {
   .main__title {
     font-size: 48px;
     max-width: 400px;
@@ -281,12 +283,13 @@ position: relative;
   }
   .header__left {
       width: 340px;
-    }
+  }
   }
   @media (max-width: 1082px) {
       .main__title {
         font-size: 44px;
         max-width: 250px;
+        line-height: 65px;
       }
       .main__wrap_img {
         width: 385px;
@@ -298,10 +301,11 @@ position: relative;
         width: 170px;
       }
      .main__buttons{
-       line-height: 30px;
+       line-height: 36px;
     }
       .main__buttons_other::after {
         left: 185px;
+        margin-top: -23px;
       }
       .main {
       background: linear-gradient(to right, black 340px, white 340px);
@@ -322,7 +326,7 @@ position: relative;
       padding-left: 30px;
     }
     .main__wrap_text {
-      padding: 0 20px
+      padding: 0 0 0 20px
     }
     .main {
       height: 708px;
@@ -330,7 +334,19 @@ position: relative;
     .main__contact_rect { 
       padding-left: 240px;
     }
-}
+    .main__buttons {
+      font-size: 11px;
+      line-height: 37px;
+     }
+     .main__button_read {
+       width: 160px;
+       margin-right: 10px;
+     }
+     .main__buttons_other::after {
+      left: 165px;
+      margin-top: -25px;
+    }
+  }
   @media (max-width: 798px) {
     .main__contact, .main__wrap_img, .main__descr, .main__buttons  {
       display: none;
@@ -366,5 +382,8 @@ position: relative;
       bottom: -40px;
       background-repeat: no-repeat;
      }
+     .main__wrap_text {
+      padding: 0 35px 0 0;
+  }
   }
     
