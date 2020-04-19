@@ -1,7 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  margin: 0;
+  margin: 0 auto;
   min-width: 340px;
   max-width: 1500px;
 }
@@ -260,7 +260,6 @@ position: relative;
   line-height: 39px;
 }
 }
-
 @media (max-width: 1171px) {
   .main__title {
     font-size: 48px;
@@ -356,6 +355,7 @@ position: relative;
     background-image: url(./images/mobile.png);
     background-size: cover;
     width: 100%;
+    height: auto;
     }
     .main__wrap {
       display: flex;
@@ -365,7 +365,6 @@ position: relative;
     .main__title {
       font-size: 50px;
       line-height: 56px;
-      height: 100%;
       position: relative;
       top: 140px;
       margin-top: 200px;
@@ -386,4 +385,15 @@ position: relative;
       padding: 0 35px 0 0;
   }
   }
-    
+  @media (max-width: 412px) {
+    .main__wrap {
+      height: 587px;
+    }
+    .main__title {
+      font-size: 46px;
+      margin-top: 110px;
+    }
+    .main__title:after {
+      bottom: -28px;
+    }
+  }
