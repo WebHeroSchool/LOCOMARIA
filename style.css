@@ -636,6 +636,7 @@ position: relative;
   }
   .page2__btns_add {
     margin: 0 40px 25px 0;
+    border: solid 1px black;
   }
   .page2__text {
     margin: 0;
@@ -767,17 +768,23 @@ position: relative;
     max-width: 420px;
   }
   .page3__othergds:after {
-    left: 180px;
+    left: 227px;
 }
-  .page3__othergds {
-    font-size: 10px;
+ .page3__othergds {
+    margin: 0 0 0 -140px;
+ }
+  .page3__btns_quant:before  {
+    left: 15px;
+  }
+  .page3__btns_quant:after {
+    right: 14px;
   }
 }
 @media (max-width: 1287px) {
   .page3__img_clo {
     width: 650px;
     height: 520px;
-    margin: 159px 0 0 75px;
+    margin: 189px 0 0 75px;
   }
   .web{
     margin: 140px 0 0 0;
@@ -786,26 +793,25 @@ position: relative;
 @media (max-width: 1106px) {
   .page3__img_clo {
     width: 550px;
-    height: 500px;
-    margin: 169px 0 0 65px;
+    height: 480px;
+    margin: 189px 0 0 65px;
+  }
+  .page3__subt {
+  font-size: 30px;
+  }
+  .web {
+    margin-top: 180px;
   }
 }
 @media (max-width: 998px) {
   .page3__img_clo {
     width: 500px;
+    height: 440px;
+    margin: 219px 0 0 65px;
   }
   .page3__text {
     max-width: 390px;
-    margin: 250px 0 40px -80px;
-  }
-  .page3__img_clo {
-    width: 500px;
-    height: 500px;
-    margin: 169px 0 0 65px;
-  }
-  .page3__text {
-    max-width: 390px;
-    margin: 250px 0 40px -80px;
+    margin: 250px 0 30px -80px;
   }
   .page3 {
     background: linear-gradient(to right, #EBE3D8 268px, #000 268px, #000 341px, #EBE3D8 341px);
@@ -813,20 +819,31 @@ position: relative;
 }
 @media (max-width: 939px) {
   .page3__img_clo {
-    margin: 169px 0 0 25px;
+    margin: 219px 0 0 25px;
   }
   .page3__text {
-    max-width: 340px;
+    max-width: 360px;
     margin: 250px 0 40px -80px;
   }
   .page3__othergds {
-    margin: 0 0 0 -165px;
+    font-size: 9px;
+    margin: 0 0 0 -110px;
+}
+.page3__othergds:after {
+  left: 160px;
+  padding-right: 10px;
+}
+.page3__subt_add {
+  font-size: 14px;
+}
+.page3__par,.page3__par_add {
+  font-size: 13px;
 }
 .page3__btns_quant:before  {
-  left: 15px;
+  left: 12px;
 }
 .page3__btns_quant:after {
-  right: 13px;
+  right: 10px;
 }
 }
 @media (max-width: 798px) {
